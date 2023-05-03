@@ -1,0 +1,30 @@
+.product-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.product {
+    width: calc(20% - 10px);
+    margin: 50px 20px;
+    display: flex;
+}
+
+.product a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product:hover{
+    background-color: rgb(105, 100, 100);
+    cursor: pointer;
+    color: rgb(255,255,255);
+}
+
+.prod-img{
+    height: 60px;
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+.prod{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.prodImage, .prodData{
+    width: 50%;
+}
+
+.prodImage img{
+    height: 400px;
+    max-width: 500px;
+}

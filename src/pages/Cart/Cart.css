@@ -1,0 +1,40 @@
+.cart{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.cartContainer{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items{
+    width: 100px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-items{
+    width: 80px;
+    padding: 0 10px;
+}
+
+.items:hover{
+    background-color: rgb(78, 78, 78);
+    color: rgb(239, 246, 253);
+}
+
+.totalCart{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.totalCart h3, .totalCart p, .totalCart button{
+    margin: 15px;
+}
